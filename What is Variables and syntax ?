@@ -1,0 +1,30 @@
+import java.io.*;
+public class variables{
+public static void main(String ar[])
+{
+int a = 25;
+int b = 10;
+int sum = a+b;
+System.out.println("the addition of " + a + " and " + b +" is " + sum);
+
+int  product = a * b;
+System.out.println("the multiplication of " + a + " and " + b +" is " + product);
+
+int v1 = a/b;
+int v2 = b/a;
+int v3 = a%b;
+
+System.out.println(v1);
+System.out.println(v2);
+System.out.println(v3);
+int exp = (a*b)/(a+b);
+//expression
+//int exp = a*b%a+b; //here the original answer is 6 but when i am compiling i get 20 because */% priority is first so it will do 25*10=250/25=10+10=20;what to do for 6
+//then we will add brackets to A*B like this = (a*b)
+
+System.out.println(exp);
+}
+}
+
+
+//i have leared to derive a variable and how it works efficientely .
